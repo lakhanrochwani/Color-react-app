@@ -9,7 +9,7 @@ export default function App() {
     <div>
       <Square colorValue={color} />
       <br />
-      <Input setColorState={setColor} />
+      <Input color={color} setColorState={setColor} />
     </div>
   );
 }
