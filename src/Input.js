@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 export default function Input({ setColorState }) {
-  // const [color, setColor] = useState();
   const handleChange = (e) => {
     setColorState(e.target.value);
   };
@@ -9,9 +8,9 @@ export default function Input({ setColorState }) {
     <>
       <input
         type="text"
-        // value={color}
         onChange={handleChange}
-        style={{ width: '40%', height: '20px' }}
+        style={{ width: '39%', height: '20px' }}
+        placeholder="Add color value"
       />
     </>
   );
